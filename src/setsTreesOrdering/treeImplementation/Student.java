@@ -21,6 +21,7 @@ public class Student implements Comparable<Student> {
     return name.equals(otherStudent.name) && address.equals(otherStudent.address);
   }
 
+
   @Override
   public int hashCode() {
     return name.hashCode() + address.hashCode();
